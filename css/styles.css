@@ -284,7 +284,6 @@ nav h1 a {
   /* HOME PAGE */
   #map {
 		width:100%;
-
 	}
 
   #restaurants-list {
@@ -507,7 +506,6 @@ nav h1 a {
   }
 
   /* RESTAURANT DETAILS */
-
 	.inside #map-container {
 		width: 100%;
 		height: 300px;
@@ -577,11 +575,7 @@ nav h1 a {
 	  position: absolute;
 	  width: 100%;
 	}
-
-
 }
-
-
 
 @media screen and (min-width: 992px) and (max-width: 1138px) {
   /* HOME PAGE */
@@ -596,66 +590,11 @@ nav h1 a {
 	}
 
 	/* RESTAURANT DETAILS */
-
 	.inside #map-container {
 		width: 50%;
 		height: 100%;
-		/*position:absolute;*/
 	}
 
-	/*.restaurant-main  {
-		width: 100%;
-		height: 300px;
-		margin: 0 auto;
-		padding: 140px 0 0;
-		order: 0;
-	}
-
-	#restaurant-container {
-		order: 1;
-		padding: 0;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		border-top: 1px solid #333333;
-	}
-
-	#restaurant-name {
-		align-self: flex-start;
-		margin: 500px 10px 15px 30px;
-		transform: translateX(8%);
-	}
-
-	#restaurant-name,
-	#restaurant-img,
-	#restaurant-cuisine {
-		xwidth: 80%;
-	}
-
-	#restaurant-name {
-		text-align: center;
-	}
-
-	#restaurant-address {
-		width: 40%;
-		padding-left: 20px;
-	}
-
-	#restaurant-hours {
-		width: 80%;
-		margin: 0 auto;
-		text-align: end;
-	}
-
-	#restaurant-hours tr:nth-child(odd) {
-		background-color: #ffffff;
-	}
-
-	#restaurant-hours tr :first-child {
-		text-align: start;
-	}
-*/
 	#reviews-container {
 		order: 2;
 		width: 45%;
@@ -680,62 +619,8 @@ nav h1 a {
 	.inside #map-container {
 		width: 50%;
 		height: 100%;
-		/*position:absolute;*/
 	}
 
-/*	.restaurant-main  {
-		width: 100%;
-		height: 300px;
-		margin: 0 auto;
-		padding: 140px 0 0;
-		order: 0;
-	}
-
-	#restaurant-container {
-		order: 1;
-		padding: 0;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		border-top: 1px solid #333333;
-	}
-
-	#restaurant-name {
-		align-self: flex-start;
-		margin: 500px 10px 15px 30px;
-		transform: translateX(8%);
-	}
-
-	#restaurant-name,
-	#restaurant-img,
-	#restaurant-cuisine {
-		xwidth: 80%;
-	}
-
-	#restaurant-name {
-		text-align: center;
-	}
-
-	#restaurant-address {
-		width: 40%;
-		padding-left: 20px;
-	}
-
-	#restaurant-hours {
-		width: 80%;
-		margin: 0 auto;
-		text-align: end;
-	}
-
-	#restaurant-hours tr:nth-child(odd) {
-		background-color: #ffffff;
-	}
-
-	#restaurant-hours tr :first-child {
-		text-align: start;
-	}
-*/
 	#reviews-container {
 		order: 2;
 		width: 50%;
